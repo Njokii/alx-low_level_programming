@@ -11,7 +11,6 @@ int main(void)
 	int m = 1;
 	char j[] = "Fizz";
 	char a[] = "Buzz";
-	char d[] = "FizzBuzz";
 
 	while (m <= 100)
 	{
@@ -30,7 +29,7 @@ int main(void)
 		else if (((m % 3) == 0) && ((m % 5) == 0))
 		{
 			m++;
-			printf("%s ", d);
+			printf("%s%s ", j, a);
 			continue;
 		}
 		printf("%d ", m);
