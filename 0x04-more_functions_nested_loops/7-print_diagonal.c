@@ -25,13 +25,16 @@ void print_diagonal(int n)
 			{
 				if ( m == j)
 				{
+					m++;
 					_putchar(92);
+					break;
 				}
 				else
 				{
+					m++;
 					_putchar(' ');
+					continue;
 				}
-				m++;
 			}
 			_putchar('\n');
 			j++;
