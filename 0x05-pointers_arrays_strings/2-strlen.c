@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-  *_strlen - counts the number of characters 
-  *@s the characters to be coutned 
+  *_strlen - counts the number of characters
+  *@s: the characters to be coutned
   *
   * Return: Always 0
   */

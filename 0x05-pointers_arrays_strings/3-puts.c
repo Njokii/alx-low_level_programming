@@ -2,7 +2,7 @@
 
 /**
   *_puts- appends  new line at the end of a string
-  *
+  *@str: the string to be added
   *Return: Always 0
   */
 
